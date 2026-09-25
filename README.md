@@ -4,21 +4,32 @@
 
 ---
 
+## 📸 Demonstration
+
+| Welcome Screen | Category Selection | Quiz Configuration |
+| :---: | :---: | :---: |
+| <img src="screenshots/welcome.jpg" width="230" /> | <img src="screenshots/categories.jpg" width="230" /> | <img src="screenshots/config.jpg" width="230" /> |
+
+| Live Quiz Screen | Results & Performance |
+| :---: | :---: |
+| <img src="screenshots/quiz.jpg" width="230" /> | <img src="screenshots/result.jpg" width="230" /> |
+
+---
+
 ## ✨ Features
 
 - **👋 Welcome & User Branding**: Personalized greeting screen featuring student name (**Israt Jahan Tamanna**) with quick start action.
 - **📚 Dynamic Quiz Categories**: Fetches live trivia categories dynamically from OpenTDB API with custom UI icons and fallback offline safety.
 - **⚙️ Customizable Quiz Setup**: 
-  - Choose number of questions (5 to 20 questions).
+  - Choose number of questions (1 to 50 questions).
   - Select difficulty level (*Any, Easy, Medium, Hard*).
   - Select question type (*Any, Multiple Choice, True / False*).
 - **⏱️ Interactive Quiz Experience**:
-  - 15-second animated countdown timer per question.
+  - Animated countdown timer per question.
   - Immediate visual feedback on answer selection (green for correct, red for incorrect with correct option highlighted).
-  - Smooth progress indicator showing current question index and remaining time.
+  - Smooth progress indicator showing current question index.
 - **📊 Comprehensive Results & Performance Analytics**:
   - Final score breakdown and accuracy percentage calculation.
-  - Time elapsed summary.
   - Interactive options to **Play Again** with same settings or **Choose Another Category**.
 - **📱 Responsive & Accessible UI**: Responsive layout tailored for mobile devices, supporting dark/light contrast standards and clean typography.
 
